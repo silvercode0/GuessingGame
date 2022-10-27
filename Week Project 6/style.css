@@ -14,33 +14,7 @@ h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
 }
-/* .text1 {
-  display: flex;
-  justify-content: center;
-  height: 30px;
-} */
-/* .secofnums {
-  border: 5px solid #000000;
-  background: linear-gradient(120deg, #12015f99, #ffaac6, #12015f99);
-  width: 700px;
-  margin: auto;
-  text-align: center;
-  color: #000000;
-  font-size: 30px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-} */
 
-.textbelow {
-  font-size: 70px;
-  color: #ffffff;
-  padding: 1%;
-  margin: 1%;
-  font-weight: bold;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
 #btn {
   text-align: center;
   height: 30px;
@@ -101,49 +75,4 @@ ul {
 #preGuess {
   display: flex;
   justify-content: center;
-}
-#firstGuess {
-  background: #000000;
-  color: white;
-  width: 50px;
-  height: 30px;
-  text-align: center;
-  padding: 1.8%;
-  margin: 1%;
-}
-#secGuess {
-  background: #000000;
-  color: white;
-  width: 50px;
-  height: 30px;
-  text-align: center;
-  padding: 1.8%;
-  margin: 1%;
-}
-#thrGuess {
-  background: #000000;
-  color: white;
-  width: 50px;
-  height: 30px;
-  text-align: center;
-  padding: 1.8%;
-  margin: 1%;
-}
-#fouGuess {
-  background: #000000;
-  color: white;
-  width: 50px;
-  height: 30px;
-  text-align: center;
-  padding: 1.8%;
-  margin: 1%;
-}
-#fifGuess {
-  background: #000000;
-  color: white;
-  width: 50px;
-  height: 30px;
-  text-align: center;
-  padding: 1.8%;
-  margin: 1%;
 }
