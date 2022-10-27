@@ -1,0 +1,149 @@
+body {
+  background: slateblue;
+}
+p {
+  color: #1d0042;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+/* .text1 {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+} */
+/* .secofnums {
+  border: 5px solid #000000;
+  background: linear-gradient(120deg, #12015f99, #ffaac6, #12015f99);
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  color: #000000;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+.textbelow {
+  font-size: 70px;
+  color: #ffffff;
+  padding: 1%;
+  margin: 1%;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#btn {
+  text-align: center;
+  height: 30px;
+  color: #8389be;
+  border-radius: 30px;
+  border-color: #aa60ff;
+  background: #18041a;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+ul {
+  display: flex;
+  font-size: 10px;
+  color: #1d0042;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0%;
+}
+#creator {
+  display: flex;
+  font-size: 10px;
+  color: #1d0042;
+  justify-content: center;
+  /* background: linear-gradient(120deg, #52517799, #8076d6); */
+}
+#restartBtn {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 20px;
+  border-color: #aa60ff;
+  background: #18041a;
+  color: #8389be;
+  border-radius: 30px;
+  text-align: center;
+}
+#container {
+  border: 3px solid #000000;
+  margin: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+}
+#guessInput {
+  background: #000000;
+  color: white;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  text-align: center;
+  padding: 1.8%;
+  margin: 1%;
+}
+
+#preGuess {
+  display: flex;
+  justify-content: center;
+}
+#firstGuess {
+  background: #000000;
+  color: white;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  padding: 1.8%;
+  margin: 1%;
+}
+#secGuess {
+  background: #000000;
+  color: white;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  padding: 1.8%;
+  margin: 1%;
+}
+#thrGuess {
+  background: #000000;
+  color: white;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  padding: 1.8%;
+  margin: 1%;
+}
+#fouGuess {
+  background: #000000;
+  color: white;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  padding: 1.8%;
+  margin: 1%;
+}
+#fifGuess {
+  background: #000000;
+  color: white;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  padding: 1.8%;
+  margin: 1%;
+}
