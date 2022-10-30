@@ -8,14 +8,10 @@
 
 // After 5 guesses the player has lost
 
-// const theGuess = document.getElementById("outputguess");
-// const previousGuess = document.querySelectorAll("#Guess");
-
 let btn = document.getElementById("btn");
 let output = document.getElementById("guesstext");
 let innerGuess = document.getElementById("preGuess");
 const randomNumber = Math.floor(Math.random() * 100) + 1;
-
 let inputCount = 0;
 
 btn.addEventListener("click", function () {
@@ -24,7 +20,11 @@ btn.addEventListener("click", function () {
     output.innerHTML = "You guessed correct, Hoo - Ray!";
     // if the number is guessed correctly with in the 5 attempts, output this code
   }
-  if (input < randomNumber) {
+  if (input === "") {
+    output.innerhtml = "GUESS A NUMBER";
+    inputCount = 0;
+  }
+  if (input > 0 && input < randomNumber) {
     output.innerHTML = "You are too low, guess higher";
     inputCount += 1;
   }
@@ -36,18 +36,28 @@ btn.addEventListener("click", function () {
   if (inputCount === 5) {
     output.innerHTML = "You Have Lost!";
   }
+  // if (isWhole(input)) {
+  //   output.innerHtml = "Guess a WHOLE NUMBER";
+  //   return;
+  // }
   if (inputCount > 5) {
     output.innerHTML = "You Have Lost!";
     return;
   }
-  ////    LOAD PREVIOUS GUESS    ////
-  ///
+  if (input < 1) {
+    output.innerHTML = "Guess A NUMBER BETWEEN 1 - 100";
+    return;
+  }
+  if (isNaN(input) === true) {
+    output.innerHTML = "Guess A NUMBER !";
+  }
+
   //   Inner HTML load previous guess ---
-  // I want to be able to push the guess into the box as inner html
+  /* I want to be able to push the guess into the box as inner html */
   if (inputCount === 1) {
     preGuess.textContent = "Previous guesses: ";
   }
-  preGuess.textContent += input + " ";
+  preGuess.textContent += " " + input + " ";
 
   inputCount < 5;
   console.log(input);
